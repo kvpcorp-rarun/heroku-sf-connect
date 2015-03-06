@@ -1,0 +1,29 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: heroku_cnt_development
+  pool: 5
+  username: postgres
+  password: root
+  host: localhost
+  port: 5432
+
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: heroku_cnt_test
+  pool: 5
+  username: postgres
+  password: root
+  host: localhost
+  port: 5432
+
+production:
+  adapter: postgresql
+  encoding: unicode
+  database: heroku_cnt_production
+  pool: 5
+  username: postgres
+  password: root
+  host: localhost
+  port: 5432
