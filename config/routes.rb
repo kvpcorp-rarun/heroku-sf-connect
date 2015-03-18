@@ -1,6 +1,10 @@
 Rails.application.routes.draw do
   resources :accounts
 
+    # Routes for outbound message from salesforce
+  match '/sf_soap/delete' => 'sf_db_sync/soap_message#delete', :via => :post
+  match '/sf_soap/*klass' => 'sf_db_sync/soap_message#sync_object', :via => :post
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

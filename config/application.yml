@@ -1,0 +1,27 @@
+development:
+  PERFORM_SYNC: true
+  DEFAULT_HOST: localhost:3000
+
+  SF_USERNAME: 'varun.n@harmoney.co.nz.salesforce'
+  SF_PASSWORD: 'Harmoney123#'
+  SF_SECURITY_TOKEN: 'sRosdOfSLSP493UfJ0qEVUMKN'
+  SF_CLIENT_ID: '3MVG9e2mBbZnmM6nfrXTUyxKlQzvCJ5mQuqJAydNLqB2HXx.nabOsGekT8O8q3MrqevY9EwpaxocZpYBimFy0'
+  SF_CLIENT_SECRET: '9188380497794542992'
+  SF_HOST: 'test.salesforce.com'
+  SF_API_VERSION: '29.0'
+  SF_GRANT_TYPE: 'password'
+  SF_BASE_URI: "https://cs6.salesforce.com/services/apexrest/"
+production:
+  PERFORM_SYNC: true
+  SF_USERNAME: 'arun.kumar@kvpcorp.com'
+  SF_PASSWORD: 'arun2003'
+  SF_SECURITY_TOKEN: '9ybdXUcCDS1JwbAT75qRrvI2'
+  SF_CLIENT_ID: '3MVG9ZL0ppGP5UrDeKxpzU4Fh0hr3EVO2nYsqixpxgE4G8SUMF6H95M2dvYjYPLH94bG2SMfFLNMIy0vye9EX'
+  SF_CLIENT_SECRET: '816895566260617478'
+  SF_HOST: 'login.salesforce.com'
+  SF_API_VERSION: '29.0'
+  SF_GRANT_TYPE: 'password'
+
+  SF_BASE_URI: "https://ap2.salesforce.com/services/apexrest/"
+  SF_LOAN_PREAPPROVAL_END_POINT: "PreApprovalLimit"
+  SF_LOAN_OFFERS_END_POINT: "loanOffer"

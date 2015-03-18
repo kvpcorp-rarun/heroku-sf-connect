@@ -1,0 +1,14 @@
+development:
+  client_id: 3MVG9e2mBbZnmM6nfrXTUyxKlQzvCJ5mQuqJAydNLqB2HXx.nabOsGekT8O8q3MrqevY9EwpaxocZpYBimFy0
+  client_secret: 9188380497794542992
+  host: test.salesforce.com
+  username: varun.n@harmoney.co.nz.salesforce
+  password: Harmoney123#sRosdOfSLSP493UfJ0qEVUMKN
+  debugging: true
+production:
+  client_id: 3MVG9ZL0ppGP5UrDeKxpzU4Fh0hr3EVO2nYsqixpxgE4G8SUMF6H95M2dvYjYPLH94bG2SMfFLNMIy0vye9EX
+  client_secret: 816895566260617478
+  host: login.salesforce.com
+  username: arun.kumar@kvpcorp.com
+  password: arun2003rVJxBoXG2LHDPMcQe7JZfuLUb
+  debugging: true
